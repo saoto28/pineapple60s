@@ -1,0 +1,127 @@
+(footprint "SolderWirePad_1x01_SMD_5x5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Wire Pad, Square, SMD Pad,  5mm x 10mm,")
+	(tags "MesurementPoint Square SMDPad 5mmx10mm ")
+	(property "Reference" "REF**"
+		(at 0 -3.9 0)
+		(layer "F.SilkS")
+		(uuid "d7c973d9-e1e3-46ca-9452-7695f528e3a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SolderWirePad_1x01_SMD_5x5mm"
+		(at 0 4.6 0)
+		(layer "F.Fab")
+		(uuid "a4de7b32-8ad3-4543-a0f9-84a45897c6ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45b6d0d6-c4a7-43be-afc3-90cfd8f7dc22")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2671d149-5cc8-4b28-9623-88d130627bad")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dae6ba8a-9346-422c-a8cc-fb2950ab3e03")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -2.75 -2.75)
+		(end -2.75 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "74f48e08-3d45-4d74-887d-0e5e40d502e5")
+	)
+	(fp_line
+		(start -2.75 2.75)
+		(end 2.75 2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "89d11e3b-27cf-4d52-8604-94f751b723ba")
+	)
+	(fp_line
+		(start 2.75 -2.75)
+		(end -2.75 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b96c1c6a-734e-4d20-b716-ed1eea73d88c")
+	)
+	(fp_line
+		(start 2.75 2.75)
+		(end 2.75 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6092f642-35a4-4cc2-9810-262b82e11180")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "bd0b6983-efe8-4cb3-8818-474e587b95a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 5 5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a863d27f-858e-43f3-9f44-2ded4d3b90cf")
+	)
+)

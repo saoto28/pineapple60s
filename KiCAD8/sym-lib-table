@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "pineapple")(type "KiCad")(uri "${KIPRJMOD}/pineapple.kicad_sym")(options "")(descr ""))
+)

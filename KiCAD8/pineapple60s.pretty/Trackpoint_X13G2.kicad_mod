@@ -1,0 +1,229 @@
+(footprint "Trackpoint_X13G2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Trackpoint")
+	(tags "Trackpoint")
+	(property "Reference" "H1"
+		(at 1 9.5 0)
+		(layer "B.SilkS")
+		(uuid "ba54f46c-1008-486e-ab7a-e1c8b8632a7a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Trackpoint_X13G2"
+		(at 0 7 0)
+		(layer "F.Fab")
+		(uuid "690fb9ca-7352-49f9-b66a-609486ab0127")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "pineapple60S:Trackpoint_X13G2"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d1d7052-b66d-4e87-af12-6e3ff3d33668")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "268bd5df-307b-4dbf-be01-43651abc2b2e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "for X13G2"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e73d2c6c-59f7-4ffd-b188-c61c655a38e6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC PN" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1380f79-167a-4017-8663-0e4621037063")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -12.072479 0.956513)
+		(end -1.5 -18)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "B.CrtYd")
+		(uuid "714e404f-1f04-4041-b163-f6a97a4a1d4f")
+	)
+	(fp_line
+		(start -9.500001 5.5)
+		(end 9.5 5.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "B.CrtYd")
+		(uuid "7e8f9e71-66ff-49c7-a730-1bfe734a7817")
+	)
+	(fp_line
+		(start -1.5 -18)
+		(end 1.5 -18)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "B.CrtYd")
+		(uuid "f2f81948-aa77-4916-bb41-91679a5a3e28")
+	)
+	(fp_line
+		(start 1.5 -18)
+		(end 12.072479 0.956513)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "B.CrtYd")
+		(uuid "461195d1-a2e1-42a8-a941-4e07694bee39")
+	)
+	(fp_arc
+		(start -9.500001 5.5)
+		(mid -12.1106 3.978096)
+		(end -12.072479 0.956513)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "B.CrtYd")
+		(uuid "0ac59ec1-5c86-4c49-a553-4a282fe76bc2")
+	)
+	(fp_arc
+		(start 12.072479 0.956513)
+		(mid 12.1106 3.978097)
+		(end 9.5 5.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "B.CrtYd")
+		(uuid "b509eeb2-4f16-4c0e-b615-316be65f447d")
+	)
+	(fp_circle
+		(center -9.5 2.5)
+		(end -9.5 4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "b81c1abd-7cf8-479c-8424-0bfffc3d35ca")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.4 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "22543a31-ef06-47fe-b887-fc5d66f258ae")
+	)
+	(fp_circle
+		(center 9.5 2.5)
+		(end 9.5 4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "b08af566-c43a-4681-8c45-522798f5396a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b4603063-5611-497c-9098-788c56e9ff59")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 8.7 8.7)
+		(drill 8.7)
+		(layers "*.Cu" "*.Mask")
+		(uuid "4e9dba38-7aeb-4493-8244-da896925e122")
+	)
+	(pad "1" smd rect
+		(at 0 -16)
+		(size 5 5)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(uuid "b95e5aea-d15e-43ee-ad57-5ed3530bd419")
+	)
+	(pad "2" thru_hole circle
+		(at -9.5 2.5)
+		(size 3 3)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "88a6b9b7-0308-4d6a-807f-b0cd1a10a42f")
+	)
+	(pad "3" thru_hole circle
+		(at 9.5 2.5)
+		(size 3 3)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5e09e38e-ad64-4d0b-80df-565b8b08c247")
+	)
+	(model "${KIPRJMOD}/3dcad/SuperLowSoftRim17S v2.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
