@@ -4,10 +4,14 @@ Custom keyboard for ThinkPad X13 Gen2
 
 ## folder
 
-### /KiCAD8
+### [/KiCAD8][1]
+[1]:/KiCAD8
+
 - PCB CAD files
 
-### /qmk_firmware
+### [/qmk_firmware][2]
+[2]:/qmk_firmware/keyboards/pineapple/p60s
+
 - keyboard configuration of qmk_firware 
 
 ## How to modify ThinkPad X13 Gen2 (Japanese)
